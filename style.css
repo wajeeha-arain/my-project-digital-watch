@@ -20,6 +20,7 @@
        top: 50%;
        left: 50%;
        transform: translate(-50%, -50%);
+       box-shadow: 0 0 25px   rgb(196, 121, 226);
        
    }
    
@@ -39,11 +40,13 @@
        height: 180px;
        width: 180px;
        border-radius: 5px;
-       background-color: #f41b5f;
+       background-color: #f7437c;
        position: absolute;
        left: -50px;
        top: -50px;
        z-index: -1;
+       box-shadow: 0 0 25px   rgb(248, 163, 230);
+       
    
    
    }
@@ -58,7 +61,7 @@
        right: -30px;
        bottom: -50px;
        z-index: -1;
-       
+       box-shadow: 0 0 25px   rgb(135, 171, 236);
    
    }
    .clock span{
@@ -73,7 +76,6 @@
    .clock span::after{
        position: absolute;
        font-size: 11.9px;
-       
        bottom: -8px;
        left: 55%;
        transform: translate(-50%);
